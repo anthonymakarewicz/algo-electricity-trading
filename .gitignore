@@ -3,3 +3,5 @@ train
 Mini*
 main*
 train.csv
+data_cleaned.csv
+train_val_test.h5
