@@ -1,0 +1,37 @@
+{
+    "expert_features": [
+        "wind_boxcox",
+        "load",
+        "Weekly_cos",
+        "Weekly_sin",
+        "Monthly_cos",
+        "Monthly_sin",
+        "Quarterly_cos",
+        "Quarterly_sin",
+        "load / solar_cleaned",
+        "Month"
+    ],
+    "bf_features": [
+        "load",
+        "wind_boxcox",
+        "Quarterly_cos",
+        "Annual_cos",
+        "wind_boxcox_rolling_std_1d",
+        "wind_boxcox_rolling_mean_7d",
+        "wind_boxcox_rolling_std_7d",
+        "load_rolling_std_3h",
+        "load_rolling_std_7d"
+    ],
+    "hybrid_features": [
+        "Annual_cos",
+        "wind_boxcox_rolling_std_7d",
+        "load_rolling_std_3h",
+        "wind_boxcox",
+        "load / solar_cleaned",
+        "wind_boxcox_rolling_std_1d",
+        "wind_boxcox_rolling_mean_7d",
+        "load_rolling_std_7d",
+        "Quarterly_cos",
+        "load"
+    ]
+}
